@@ -188,7 +188,7 @@ def most_points_scored
   game_hash.eacb do |team, team_info|
     team_info[:players].each do |player|
       if player[:points] > hueg_score
-        hueg_score = player[]:points]
+        hueg_score = player[:points]
           end
         end
       end
